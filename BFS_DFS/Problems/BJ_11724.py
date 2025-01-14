@@ -8,7 +8,7 @@ N, M = map(int, input().split())
 
 nodes = [[] for _ in range(N+1)]
 
-for _ in range(M):
+for _ in range(1, M+1):
   a, b = map(int, read().strip().split())
   nodes[a].append(b)
   nodes[b].append(a)
@@ -30,10 +30,10 @@ result = 0
 for i in range(1, N+1):
   for j in nodes[i]:
     if not visited[j]:
-      if len(nodes[i]) == 0:
-        visited[i] = True  
-      else:
-        bfs(i, nodes, visited)
+      # if len(nodes[i]) == 0:
+      #   visited[i] = True  
+      # else:
+      bfs(i, nodes, visited)
       result += 1
 
 print(result)
