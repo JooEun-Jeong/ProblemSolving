@@ -28,6 +28,10 @@
 import heapq
 
 # 다익스트라 알고리즘 구현
+## 구현 방법 2가지
+### dictionary: 연속적이지 않은 노드 번호가 존재할 때 유리
+### list: 연속적인 노드를 사용할 때 더 빠름 (리스트 기반이 더 적은 메모리 사용)
+
 def dijkstra(graph, start):
     distances = {node: float('inf') for node in graph}
     distances[start] = 0
