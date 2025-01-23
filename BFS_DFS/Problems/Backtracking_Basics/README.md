@@ -1,0 +1,19 @@
+#### Backtracking의 기본 골자가 되는 문제들
+- 1부터 N까지 자연수 중에서 중복 없이 M개를 고른 수열
+  - [N과 M 1](https://www.acmicpc.net/problem/15649)
+- 1부터 N까지의 수를 중복 없이 M개 고른 수열 + 오름차순
+  - [N과 M 2](https://www.acmicpc.net/problem/15650)
+- 1부터 N까지의 수를 중복해서 M개 고른 수열
+  - [N과 M 3](https://www.acmicpc.net/problem/15651)
+- 1부터 N까지의 수를 중복해서 M개 고른 수열 + 비내림차순
+  - [N과 M 4](https://www.acmicpc.net/problem/15652)
+- N개의 자연수 중에서 M개를 중복없이 고른 수열
+  - [N과 M 5](https://www.acmicpc.net/problem/15654)
+- N개의 자연수 중에서 M개를 중복없이 고른 수열 + 오름차순
+  - [N과 M 6](https://www.acmicpc.net/problem/15655)
+- N개의 자연수 중에서 M개를 중복해서 고른 수열
+  - [N과 M 7](https://www.acmicpc.net/problem/15656)
+- N개의 수를 중복해서 M개 고른 수열 + 비내림차순
+  - [N과 M 8](https://www.acmicpc.net/problem/15657)
+- N개의 자연수 중에서 M개를 중복없이  고른 수열 + 오름차순
+  - [N과 M 9](https://www.acmicpc.net/problem/15663)
