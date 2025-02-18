@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class b11404 {
+public class BJ_11404 {
   static int V, E;
   static long lst[][];
   static long INF = Long.MAX_VALUE;

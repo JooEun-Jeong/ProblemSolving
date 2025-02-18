@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class b1753 {
+public class BJ_1753 {
   static int V, E, startV;
   static List<List<int[]>> edges;
   static int INF = 987654321;

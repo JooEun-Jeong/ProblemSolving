@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class b11403 {
+public class BJ_11403 {
   static int[][] lst;
   static int N;
   public static void main(String[] args) throws NumberFormatException, IOException {

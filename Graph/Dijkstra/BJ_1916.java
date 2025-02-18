@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class b1916 {
+public class BJ_1916 {
   static int V, E;
   static List<List<int[]>> graph;
   static int INF = Integer.MAX_VALUE;
