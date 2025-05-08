@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class b1182 {
+public class BJ_1182 {
   static int cnt, N, S;
 
   public static void main(String[] args) throws IOException {
